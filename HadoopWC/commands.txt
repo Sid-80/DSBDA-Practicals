@@ -1,0 +1,11 @@
+Commands:
+
+1.su
+2.nano data.txt
+3.start-all.sh
+4.hdfs dfs -mkdir /folder_name
+5.hdfs dfs -put /data.txt_file_location /folder_location
+6.javac -classpath "$(hadoop classpath)" -d . WC_Mapper.java WC_Reducer.java WC_Runner.java
+7.jar -cvf wordcount.jar com
+8.hadoop jar /home/hadoop/hadoop/wordcount.jar com.javatpoint.WC_Runner /folder_name/data.txt /output
+9.hadoop dfs -cat /output/part-00000
